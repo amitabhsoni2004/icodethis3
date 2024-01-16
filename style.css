@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.089);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 140px;
+    height: 510px;
+    width: 350px;
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    /* animation: anime1 3s ease-in-out 0s ; */
+    animation: anime 8s linear 1s;
+}
+.btn{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-weight: 700;
+}
+.btn1{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,128,1) 71%,
+     rgba(252,176,69,1) 100%);
+     
+
+}
+.btn2{
+    background: linear-gradient(90deg, rgba(58,75,180,1) 0%, rgba(29,253,239,1) 71%, rgba(252,207,69,1) 100%);
+}
+svg{
+    position: relative;
+    top: 7px;
+}
+.zipbox{
+    height: 100px;
+    background-color: rgba(118, 118, 205, 0.397);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 7px;
+}
+#search{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+}
+#check{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.div{
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+@keyframes anime {
+    0%   {left: -100%;background-color:red;color: white;}
+    25%  {left: 0%;background-color:yellow; color: black;}
+    50%  {left: 0%;background-color:blue;color: white;}
+    /* 75%  {left: -100%;} */
+    /* 100% {left: -100%;} */
+}
