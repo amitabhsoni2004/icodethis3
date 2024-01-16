@@ -25,7 +25,7 @@ main{
     flex-direction: column;
     gap: 18px;
     /* animation: anime1 3s ease-in-out 0s ; */
-    animation: anime 8s linear 1s;
+    animation: anime 4s linear 1s;
 }
 .btn{
     padding: 15px;
